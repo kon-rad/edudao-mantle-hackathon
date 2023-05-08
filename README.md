@@ -1,0 +1,2 @@
+# EduDAO x Mantle Hackathon
+

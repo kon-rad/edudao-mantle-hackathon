@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "HealthStoreFacet",
+  "sourceName": "contracts/PoC/facets/HealthStoreFacet.sol",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122026700d2ca4a788d7a05cb090e4c21b28d3e4c25c7f78bdf60c81c424c6803f2064736f6c634300080d0033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122026700d2ca4a788d7a05cb090e4c21b28d3e4c25c7f78bdf60c81c424c6803f2064736f6c634300080d0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

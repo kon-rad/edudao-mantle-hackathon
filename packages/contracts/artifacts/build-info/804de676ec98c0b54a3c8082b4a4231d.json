@@ -1,0 +1,155 @@
+{
+  "id": "804de676ec98c0b54a3c8082b4a4231d",
+  "_format": "hh-sol-build-info-1",
+  "solcVersion": "0.8.13",
+  "solcLongVersion": "0.8.13+commit.abaa5c0e",
+  "input": {
+    "language": "Solidity",
+    "sources": {
+      "contracts/PoC/facets/FruitStoreFacet.sol": {
+        "content": "\npragma solidity ^0.8.0;\n\ncontract FruitStorefacet {\n    \n}"
+      }
+    },
+    "settings": {
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "outputSelection": {
+        "*": {
+          "*": [
+            "abi",
+            "evm.bytecode",
+            "evm.deployedBytecode",
+            "evm.methodIdentifiers",
+            "metadata",
+            "devdoc",
+            "userdoc",
+            "storageLayout",
+            "evm.gasEstimates"
+          ],
+          "": [
+            "ast"
+          ]
+        }
+      },
+      "metadata": {
+        "useLiteralContent": true
+      }
+    }
+  },
+  "output": {
+    "contracts": {
+      "contracts/PoC/facets/FruitStoreFacet.sol": {
+        "FruitStorefacet": {
+          "abi": [],
+          "devdoc": {
+            "kind": "dev",
+            "methods": {},
+            "version": 1
+          },
+          "evm": {
+            "bytecode": {
+              "functionDebugData": {},
+              "generatedSources": [],
+              "linkReferences": {},
+              "object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220e4150721032b73ab9ef06faeae89f3143adaa268e5bc8d69b38215b52878c09164736f6c634300080d0033",
+              "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xE4 ISZERO SMOD 0x21 SUB 0x2B PUSH20 0xAB9EF06FAEAE89F3143ADAA268E5BC8D69B38215 0xB5 0x28 PUSH25 0xC09164736F6C634300080D0033000000000000000000000000 ",
+              "sourceMap": "26:33:0:-:0;;;;;;;;;;;;;;;;;;;"
+            },
+            "deployedBytecode": {
+              "functionDebugData": {},
+              "generatedSources": [],
+              "immutableReferences": {},
+              "linkReferences": {},
+              "object": "6080604052600080fdfea2646970667358221220e4150721032b73ab9ef06faeae89f3143adaa268e5bc8d69b38215b52878c09164736f6c634300080d0033",
+              "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xE4 ISZERO SMOD 0x21 SUB 0x2B PUSH20 0xAB9EF06FAEAE89F3143ADAA268E5BC8D69B38215 0xB5 0x28 PUSH25 0xC09164736F6C634300080D0033000000000000000000000000 ",
+              "sourceMap": "26:33:0:-:0;;;;;"
+            },
+            "gasEstimates": {
+              "creation": {
+                "codeDepositCost": "12600",
+                "executionCost": "66",
+                "totalCost": "12666"
+              }
+            },
+            "methodIdentifiers": {}
+          },
+          "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/PoC/facets/FruitStoreFacet.sol\":\"FruitStorefacet\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/PoC/facets/FruitStoreFacet.sol\":{\"content\":\"\\npragma solidity ^0.8.0;\\n\\ncontract FruitStorefacet {\\n    \\n}\",\"keccak256\":\"0xc3af3b2c5382cc826397e732a6c7fb19fcac2c87fdcc2dfdf90b8bef1087f660\"}},\"version\":1}",
+          "storageLayout": {
+            "storage": [],
+            "types": null
+          },
+          "userdoc": {
+            "kind": "user",
+            "methods": {},
+            "version": 1
+          }
+        }
+      }
+    },
+    "errors": [
+      {
+        "component": "general",
+        "errorCode": "1878",
+        "formattedMessage": "Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n--> contracts/PoC/facets/FruitStoreFacet.sol\n\n",
+        "message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
+        "severity": "warning",
+        "sourceLocation": {
+          "end": -1,
+          "file": "contracts/PoC/facets/FruitStoreFacet.sol",
+          "start": -1
+        },
+        "type": "Warning"
+      }
+    ],
+    "sources": {
+      "contracts/PoC/facets/FruitStoreFacet.sol": {
+        "ast": {
+          "absolutePath": "contracts/PoC/facets/FruitStoreFacet.sol",
+          "exportedSymbols": {
+            "FruitStorefacet": [
+              2
+            ]
+          },
+          "id": 3,
+          "nodeType": "SourceUnit",
+          "nodes": [
+            {
+              "id": 1,
+              "literals": [
+                "solidity",
+                "^",
+                "0.8",
+                ".0"
+              ],
+              "nodeType": "PragmaDirective",
+              "src": "1:23:0"
+            },
+            {
+              "abstract": false,
+              "baseContracts": [],
+              "canonicalName": "FruitStorefacet",
+              "contractDependencies": [],
+              "contractKind": "contract",
+              "fullyImplemented": true,
+              "id": 2,
+              "linearizedBaseContracts": [
+                2
+              ],
+              "name": "FruitStorefacet",
+              "nameLocation": "35:15:0",
+              "nodeType": "ContractDefinition",
+              "nodes": [],
+              "scope": 3,
+              "src": "26:33:0",
+              "usedErrors": []
+            }
+          ],
+          "src": "1:58:0"
+        },
+        "id": 0
+      }
+    }
+  }
+}
